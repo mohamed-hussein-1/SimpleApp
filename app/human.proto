@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Human {
+    repeated string name = 1;
+}
