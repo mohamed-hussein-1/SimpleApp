@@ -45,10 +45,10 @@ class ApiController extends Controller
                 \Log::info($res);
             }
             else
-                $dadsa->setName($request->input('password'));
+                $dadsa->setName("wrong email / password");
         }
         else
-            $dadsa->setName('aly');
+            $dadsa->setName('request was wrong');
 
 
         // dd($dadsa->getName());
